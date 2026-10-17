@@ -4,7 +4,7 @@ All notable changes to NOETIVELA-open (SDKs, contracts, examples, CLI).
 Format follows [Keep a Changelog](https://keepachangelog.com/), versioning follows semver,
 aligned with NOETIVELA core / ee minor lines.
 
-## [Unreleased]
+## [1.1.0] - 2026-10-18
 
 ### Changed
 
@@ -75,3 +75,4 @@ aligned with NOETIVELA core / ee minor lines.
   aligned to `0.1.0-alpha` (Go modules keep `v0.1.0`).
 
 [0.1.0-alpha]: https://github.com/axisvela/NOETIVELA-open/releases/tag/v0.1.0-alpha
+[1.1.0]: https://github.com/axisvela/NOETIVELA-open/releases/tag/v1.1.0
