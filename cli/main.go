@@ -19,7 +19,7 @@ import (
 	"github.com/axisvela/noetivela-open/sdk/go/v3/client"
 )
 
-var baseURL = flag.String("url", defaultURL(), "NOETIVELA gateway base URL (default $NOETIVELA_URL or http://localhost:8080)")
+var baseURL = flag.String("url", defaultURL(), "NOETIVELA gateway base URL (default $NOETIVELA_URL or http://localhost:1826)")
 
 // version is injected at build time (goreleaser ldflags). Default aligns with
 // the NOETIVELA release milestone.
@@ -29,7 +29,7 @@ func defaultURL() string {
 	if v := os.Getenv("NOETIVELA_URL"); v != "" {
 		return v
 	}
-	return "http://localhost:8080"
+	return "http://localhost:1826"
 }
 
 func main() {

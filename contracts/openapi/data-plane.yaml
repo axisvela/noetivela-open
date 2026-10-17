@@ -8,7 +8,7 @@ info:
     Provider credentials and model IDs never appear at the application layer.
   version: 0.1.0
 servers:
-  - url: http://localhost:8080/v1
+  - url: http://localhost:1826/v1
 paths:
   /chat/completions:
     post:

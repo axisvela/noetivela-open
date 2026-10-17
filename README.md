@@ -86,18 +86,18 @@ Internal design and development docs live in the NOETIVELA-ee repository.
 # 1. Start the control plane (bootstrap a sample catalog) and the data plane
 #    (a sample routing policy)
 NOETIVELA_BOOTSTRAP_FILE=../NOETIVELA/deploy/bootstrap/manifest.example.json \
-    go run ../NOETIVELA/backend/cmd/noetivela-controller &   # :8081
+    go run ../NOETIVELA/backend/cmd/noetivela-controller &   # :1827
 NOETIVELA_POLICY_FILE=../NOETIVELA/deploy/policies/legal.confidential.npl \
-    go run ../NOETIVELA/backend/cmd/noetivela-gateway &       # :8080
+    go run ../NOETIVELA/backend/cmd/noetivela-gateway &       # :1826
 
 # 2. Submit an Inference Contract via the Go SDK (no hardcoded model names)
 go run ./examples/quickstart
 ```
 
 ```go
-import "github.com/axisvela/noetivela-open/sdk/go/client"
+import "github.com/axisvela/noetivela-open/sdk/go/v3/client"
 
-c := client.New("http://localhost:8080").WithContract(&client.Contract{
+c := client.New("http://localhost:1826").WithContract(&client.Contract{
     Task:     "contract_clause_extraction",
     Modality: []string{"text"},
     Policy:   &client.Policy{AllowedRegions: []string{"sg", "cn-north"},
@@ -132,7 +132,7 @@ go build -o noetivela .      # then place it on your PATH
 **Usage** (requires a running gateway — see Quickstart):
 
 ```bash
-export NOETIVELA_URL=http://localhost:8080   # default: http://localhost:8080
+export NOETIVELA_URL=http://localhost:1826   # default: http://localhost:1826
 
 noetivela version
 noetivela contract validate -contract contract.json -policy legal-confidential-v2

@@ -16,7 +16,7 @@ pip install -e sdk/python
 ```python
 from noetivela import Client, Contract, Policy
 
-c = Client("http://localhost:8080", tenant="acme", principal="legal-analyst")
+c = Client("http://localhost:1826", tenant="acme", principal="legal-analyst")
 
 contract = Contract(
     task="contract_clause_extraction",

@@ -15,7 +15,7 @@ npm install @axisvela/noetivela
 ```typescript
 import { Client, Contract } from "@axisvela/noetivela";
 
-const c = new Client("http://localhost:8080", {
+const c = new Client("http://localhost:1826", {
   contract: {
     task: "contract_clause_extraction",
     modality: ["text"],

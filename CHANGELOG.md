@@ -6,6 +6,13 @@ aligned with NOETIVELA core / ee minor lines.
 
 ## [Unreleased]
 
+### Changed
+
+- Align public defaults and examples with the planned ports: gateway `1826`,
+  controller `1827`. This covers the README files, CLI default URL, OpenAPI
+  server URLs, and the Go examples.
+- Update the Go SDK import examples to the `/v3` module path.
+
 ## [1.0.0] - 2026-08-21
 
 ### Changed

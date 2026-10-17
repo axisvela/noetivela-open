@@ -27,7 +27,7 @@ func main() {
 
 	baseURL := os.Getenv("NOETIVELA_URL")
 	if baseURL == "" {
-		baseURL = "http://localhost:8080"
+		baseURL = "http://localhost:1826"
 	}
 	c := client.New(baseURL)
 
