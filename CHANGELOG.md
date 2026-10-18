@@ -4,6 +4,16 @@ All notable changes to NOETIVELA-open (SDKs, contracts, examples, CLI).
 Format follows [Keep a Changelog](https://keepachangelog.com/), versioning follows semver,
 aligned with NOETIVELA core / ee minor lines.
 
+## [2.0.0] - 2026-10-18
+
+### Changed
+
+- Version surfaces aligned to core `2.0.0`: Python SDK `2.0.0`, TypeScript SDK
+  `2.0.0`, CLI default `2.0.0`; Go modules keep the `/v3` module path and
+  module tags.
+- Public defaults and examples continue to use the planned ports (`1826`
+  gateway, `1827` controller).
+
 ## [1.1.0] - 2026-10-18
 
 ### Changed
@@ -76,3 +86,4 @@ aligned with NOETIVELA core / ee minor lines.
 
 [0.1.0-alpha]: https://github.com/axisvela/NOETIVELA-open/releases/tag/v0.1.0-alpha
 [1.1.0]: https://github.com/axisvela/NOETIVELA-open/releases/tag/v1.1.0
+[2.0.0]: https://github.com/axisvela/NOETIVELA-open/releases/tag/v2.0.0
