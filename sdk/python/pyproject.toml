@@ -9,7 +9,7 @@ description = "NOETIVELA Inference Fabric client - governed model routing (Apach
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "Apache-2.0" }
-authors = [{ name = "AxisRobo Architecture & Research Program" }]
+authors = [{ name = "AxisVela Architecture & Research Program" }]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: Apache Software License",

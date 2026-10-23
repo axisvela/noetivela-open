@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://noetivela.axisrobo.dev/contracts/model-profile.schema.json",
+  "$id": "https://noetivela.axisvela.dev/contracts/model-profile.schema.json",
   "title": "ModelProfile",
   "description": "Enterprise-verified model record. ModelIdentity/Version are separated from InferenceEndpoint; a provider model name is never a stable enterprise object.",
   "type": "object",

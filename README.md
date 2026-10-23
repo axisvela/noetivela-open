@@ -1,7 +1,7 @@
 # NOETIVELA
 
 **Model, Routing & Inference Fabric**
-AxisRobo Architecture & Research Program
+AxisVela Architecture & Research Program
 
 > **中文文档:** [README.zh-CN.md](README.zh-CN.md)
 

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://noetivela.axisrobo.dev/contracts/inference-contract.schema.json",
+  "$id": "https://noetivela.axisvela.dev/contracts/inference-contract.schema.json",
   "title": "InferenceContract",
   "description": "Task-level intelligence requirement submitted by applications/agents. Declares WHAT intelligence is needed, never WHICH vendor endpoint provides it.",
   "type": "object",

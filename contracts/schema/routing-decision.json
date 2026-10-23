@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://noetivela.axisrobo.dev/contracts/routing-decision.schema.json",
+  "$id": "https://noetivela.axisvela.dev/contracts/routing-decision.schema.json",
   "title": "RoutingDecision",
   "description": "Explainable per-request routing record: candidates, filter reasons, scores, selection, and policy/evidence versions.",
   "type": "object",
